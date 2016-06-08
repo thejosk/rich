@@ -1,7 +1,8 @@
 = Connamara fork details
 
 See {this SO question}(http://stackoverflow.com/questions/37576561/ckeditor-toolbar-using-wrong-icon-file-via-rails-rich-gem)
-and {connamara/cme-institute#3498}(https://github.com/connamara/cme-institute/issues/3498).
+and
+{connamara/cme-institute#3498}(https://github.com/connamara/cme-institute/issues/3498).
 
 FI is using an old version of this gem (branched off of 3e92749ac).
 Newer releases don't work for some reason that I (Grant) don't have
