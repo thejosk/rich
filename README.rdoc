@@ -1,3 +1,19 @@
+= Connamara fork details
+
+See [this SO question](http://stackoverflow.com/questions/37576561/ckeditor-toolbar-using-wrong-icon-file-via-rails-rich-gem)
+and connamara/cme-institute#3498.
+
+FI is using an old version of this gem (branched off of 3e92749ac).
+Newer releases don't work for some reason that I (Grant) don't have
+the time or interest to investigate it.
+
+The only change in this fork is this:
+
+`> vendor/assets/images/ckeditor$ cp plugins/icons.png skins/moono/icons.png`
+
+Everything under this line is the original README.
+
+
 == Rich
 
 {<img src="https://github.com/kreativgebiet/rich/raw/master/app/assets/images/rich/rich.png" />}[https://github.com/bastiaanterhorst/rich/] Rich is an opinionated implementation of CKEditor for Rails 3.2 and up. It includes a stripped down toolbar, simplified dialogs and a custom file manager. The file manager can also be used separate from CKEditor.
