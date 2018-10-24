@@ -3,6 +3,7 @@ raise "Please install Paperclip: github.com/thoughtbot/paperclip" unless Object.
 module Rich
   module Backends
     module Paperclip
+      include Paperclip::Glue
       extend ActiveSupport::Concern
 
       included do
